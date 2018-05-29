@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Tag Writer</string>
+    <string name="when_nfc_on"> Nfc is On </string>
+    <string name="when_nfc_off">Turn Nfc On</string>
+    <string name="when_writer_enabled">Writing Mode Enabled</string>
+    <string name="mime">65363</string>
+    <string name="value">63536352</string>
+    <string name="when_writer_disbaled">Enable Writer Mode</string>
+    <string name="to_do_to_write">Please Enter the data to be pushed first then tap the card for few minutes and click on the enable Writer Mode until you get a written succesful Message
+    </string>
+</resources>

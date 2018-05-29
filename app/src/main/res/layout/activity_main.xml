@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="#121233"
+        android:gravity="center"
+        android:text="My Tag Writer"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/nfcswitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffff"
+        android:checked="false"
+        android:text="Enable NFC" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/nfcimage" />
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:hint="Enter the Mime"
+        android:id="@+id/mimetype"/>
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:hint="Enter the Value"
+        android:id="@+id/mimevalue"/>
+
+
+    <TextView
+        android:id="@+id/todo"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/to_do_to_write" />
+
+    <Button
+        android:id="@+id/writerswitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#121233"
+        android:text="Enable Writer Mode"
+        android:textColor="#ffff" />
+</LinearLayout>
